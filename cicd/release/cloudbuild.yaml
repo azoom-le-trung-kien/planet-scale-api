@@ -39,7 +39,7 @@ steps:
           --allow-unauthenticated \
           --region asia-northeast1 \
           --platform managed \
-          --timeout 900 \
+          --timeout 900
 
 # Combine with substitution variables from cloud build trigger
 substitutions:
